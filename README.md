@@ -1,5 +1,5 @@
 # myPhonebookWebsite
-Summer Project
+<h1>Summer Project</h1>
 
 
 PLEASE INPUT THIS CODE INSIDE YOUR SQL DATA BASE
@@ -29,3 +29,17 @@ CREATE TABLE `contacts` (
   `owner` varchar(200) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+
+
+// TABLE API
+
+CREATE TABLE `oliva_tableq` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `lastname` varchar(100) NOT NULL,
+  `firstname` varchar(100) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `gender` varchar(100) NOT NULL,
+  `age` varchar(100) NOT NULL,
+  `number` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
