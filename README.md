@@ -4,6 +4,7 @@
 <p>The API is located in the <code>API-TESTING</code> folder.</p>
 
 <h2>Database Setup</h2>
+<p>To use the API and the Phonebook features, you need to set up the required database tables. Below are the SQL commands to create the necessary tables in your SQL database:</p>
 
 <h3>Table: users</h3>
 <pre>
@@ -18,6 +19,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 </code>
 </pre>
+<p>Copy and paste the above SQL code into your SQL database management tool or command line to create the 'users' table.</p>
 
 <h3>Table: contacts</h3>
 <pre>
@@ -36,6 +38,7 @@ CREATE TABLE `contacts` (
 ) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 </code>
 </pre>
+<p>Copy and paste the above SQL code into your SQL database management tool or command line to create the 'contacts' table.</p>
 
 <h3>Table: user (API)</h3>
 <pre>
@@ -52,3 +55,4 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 </code>
 </pre>
+<p>Copy and paste the above SQL code into your SQL database management tool or command line to create the 'user' table for the API.</p>
