@@ -1,7 +1,7 @@
 <h1>Summer Project Phonebook / API</h1>
 
 <h2>API Location</h2>
-<p>The API is located in the <code>API-TESTING</code> folder.</p>
+<p>The API is located in the <code>/public_html/api_testing</code> folder.</p>
 
 <h2>Database Setup</h2>
 <p>To use the API and the Phonebook features, you need to set up the required database tables. Below are the SQL commands to create the necessary tables in your SQL database:</p>
