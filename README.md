@@ -33,13 +33,13 @@ CREATE TABLE `contacts` (
 
 // TABLE API
 
-CREATE TABLE `oliva_tableq` (
-  `id` int(100) NOT NULL AUTO_INCREMENT,
-  `lastname` varchar(100) NOT NULL,
-  `firstname` varchar(100) NOT NULL,
-  `address` varchar(100) NOT NULL,
-  `gender` varchar(100) NOT NULL,
-  `age` varchar(100) NOT NULL,
-  `number` varchar(100) NOT NULL,
+CREATE TABLE `user` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `firstName` varchar(50) NOT NULL,
+  `lastName` varchar(50) NOT NULL,
+  `gender` varchar(50) NOT NULL,
+  `age` varchar(255) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `phoneNumber` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
