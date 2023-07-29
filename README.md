@@ -1,5 +1,4 @@
-# myPhonebookWebsite
-<h1>Summer Project</h1>
+<h1>Summer Project Phonebook</h1>
 
 
 PLEASE INPUT THIS CODE INSIDE YOUR SQL DATA BASE
