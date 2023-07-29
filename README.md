@@ -1,7 +1,17 @@
 <h1>Summer Project Phonebook / API</h1>
 
+<p><strong>Website:</strong> <a href="https://embedded-2020009.000webhostapp.com/" target="_blank">https://embedded-2020009.000webhostapp.com/</a></p>
+
+<h2>Testing the API</h2>
+<p>To test the API, you can use the following endpoints:</p>
+
+<ul>
+  <li><strong>Add a new user:</strong> <a href="https://embedded-2020009.000webhostapp.com/api_testing/add_user.php" target="_blank">https://embedded-2020009.000webhostapp.com/api_testing/add_user.php</a></li>
+  <li><strong>Read the API:</strong> <a href="https://embedded-2020009.000webhostapp.com/api_testing/read_api.php" target="_blank">https://embedded-2020009.000webhostapp.com/api_testing/read_api.php</a></li>
+</ul>
+
 <h2>API Location</h2>
-<p>The API is located in the <code>/public_html/api_testing</code> folder.</p>
+<p>The API is located in the <code>API-TESTING</code> folder.</p>
 
 <h2>Database Setup</h2>
 <p>To use the API and the Phonebook features, you need to set up the required database tables. Below are the SQL commands to create the necessary tables in your SQL database:</p>
