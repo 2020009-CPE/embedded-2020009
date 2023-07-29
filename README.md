@@ -1,5 +1,7 @@
-<h1>Summer Project Phonebook</h1>
+<h1>Summer Project Phonebook / API </h1>
 
+
+API IS LOCATED IN API-TESTING FOLDER
 
 PLEASE INPUT THIS CODE INSIDE YOUR SQL DATA BASE
 
